@@ -1,0 +1,44 @@
+/* Tipos de Letras */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/*limpiar default css browser*/
+* {
+  margin:  0;
+  padding: 0;
+}
+
+p{
+	font-family: 'Lobster', cursive;
+	font-size: 200%;
+}
+
+body{
+	background-color: #FE9A2E;
+}
+header{
+	padding-left: 3%;
+	padding-top: 2%;
+}
+#imagen{
+	position: relative; /*una imagen arriba de otra*/
+	padding-left: 42%;
+	padding-top: 18%;
+}
+#parteSup{
+	width: 93%;
+	max-height: 320px;
+	border: 1px solid #F4FA58;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	position: absolute; /*una imagen debajo de otra*/
+}
+
+#parteCenter{
+	width: 95%;
+	max-width: 160px;
+	/*para redondiar las orillas*/
+	border-top-left-radius: 5em;
+	border-top-right-radius: 5em;
+	border-bottom-right-radius:5em;
+	border-bottom-left-radius: 5em; 
+}
