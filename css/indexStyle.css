@@ -1,44 +1,66 @@
 /* Tipos de Letras */
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400italic|Roboto+Slab);
 /*limpiar default css browser*/
 * {
   margin:  0;
   padding: 0;
 }
 
-p{
-	font-family: 'Lobster', cursive;
-	font-size: 200%;
-}
-
+/*colores*/
 body{
 	background-color: #FE9A2E;
 }
-header{
-	padding-left: 3%;
-	padding-top: 2%;
-}
-#imagen{
-	position: relative; /*una imagen arriba de otra*/
-	padding-left: 42%;
-	padding-top: 18%;
-}
-#parteSup{
-	width: 93%;
-	max-height: 320px;
-	border: 1px solid #F4FA58;
-	border-top-left-radius: 2em;
-	border-top-right-radius: 2em;
-	position: absolute; /*una imagen debajo de otra*/
+#principal{
+	background-color: #FFFFFF;	
 }
 
-#parteCenter{
-	width: 95%;
-	max-width: 160px;
-	/*para redondiar las orillas*/
-	border-top-left-radius: 5em;
-	border-top-right-radius: 5em;
-	border-bottom-right-radius:5em;
-	border-bottom-left-radius: 5em; 
+/*posiciones, largo y ancho*/
+#principal{
+	width: 96%;
+	height: 94%;
+	position: absolute;
+	left: 2%;
+	top: 3%;
 }
+#principal #imgArriba{
+	width: 100%;
+	height: 46%;
+}
+#principal #imgCentro{
+	width: 12%;
+	height: 25%;
+	position: absolute;
+	left: 43%;
+	top: 33%;
+}
+
+/*figuras bordes */
+#principal{
+	border-radius: 2em 2em 2em 2em;	
+}
+#principal #imgArriba{
+	border-radius: 2em 2em 0 0;
+}
+#principal #imgCentro{
+	border-radius: 5em 5em 5em 5em;
+}
+
+/*fondos*/
+
+
+/*tipo de fuentes tamaño */
+.tipodeLetra{
+	font-family: 'Lobster', cursive;
+}
+
+#nombre{
+	text-align: center;
+	font-size: 200%;
+}	
+
+/*
+font-family: 'Old Standard TT', serif;
+
+font-family: 'Roboto Slab', serif;
+*/
