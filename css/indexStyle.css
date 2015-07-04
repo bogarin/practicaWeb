@@ -1,6 +1,6 @@
 /* Tipos de Letras */
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400italic|Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*limpiar default css browser*/
 * {
   margin:  0;
@@ -34,6 +34,30 @@ body{
 	left: 43%;
 	top: 33%;
 }
+#principal #nombre{
+	position: absolute;
+	top:61%;
+	left: 35%;
+}
+#principal #derecha{
+	position: absolute;
+	right: 12%;
+}
+#principal #izquierda{
+	position: absolute;
+	left: 3%;
+	padding-left: 23%;
+	padding-bottom: 22%;
+}
+#principal .posiciones{
+	padding-top: 2%;
+}
+#principal #izquierda #encDer{
+	position: relative;
+	right: 126%;
+
+
+}
 
 /*figuras bordes */
 #principal{
@@ -53,14 +77,21 @@ body{
 .tipodeLetra{
 	font-family: 'Lobster', cursive;
 }
-
-#nombre{
+.encavezado{
+	font-family: 'Lobster', cursive;
+	font-size: 150%;
 	text-align: center;
+}
+#nombre{
 	font-size: 200%;
-}	
+	color: rgba(0,0,255,.6);
+}
+.posiciones{
+	color: #FE9A2E;
+}
 
 /*
-font-family: 'Old Standard TT', serif;
+font-family: 'Nunito', sans-serif;
 
 font-family: 'Roboto Slab', serif;
 */
